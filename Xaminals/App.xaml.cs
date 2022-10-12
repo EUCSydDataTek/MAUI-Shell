@@ -1,4 +1,6 @@
-﻿namespace Xaminals;
+﻿using Xaminals.ViewModels;
+
+namespace Xaminals;
 
 public partial class App : Application
 {
