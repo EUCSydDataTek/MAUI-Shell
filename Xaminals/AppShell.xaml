@@ -15,12 +15,8 @@
         <controls:FlyoutHeader />
     </Shell.FlyoutHeader>
 
-    <Shell.FlyoutFooter>
-        <controls:FlyoutFooter />
-    </Shell.FlyoutFooter>
-
     <!--************** Ex.1 **************-->
-    <!--<FlyoutItem Title="Cats"
+    <FlyoutItem Title="Cats"
                 Icon="cat.png">
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate views:CatsPage}" />
@@ -31,7 +27,7 @@
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate views:DogsPage}" />
         </Tab>
-    </FlyoutItem>-->
+    </FlyoutItem>
 
     <!--************** Ex.2 Kan forenkles til **************-->
     <!--<ShellContent Title="Cats"
@@ -71,7 +67,7 @@
 
 
     <!-- ************** Ex.4 Menu items **************-->
-    <ShellContent Title="Cats"
+    <!--<ShellContent Title="Cats"
                  Icon="cat.png"
                  ContentTemplate="{DataTemplate views:CatsPage}" />
    <ShellContent Title="Dogs"
@@ -80,5 +76,5 @@
     <MenuItem Text="Help"
               IconImageSource="help.png"
               Command="{Binding HelpCommand}"
-              CommandParameter="https://learn.microsoft.com/dotnet/maui/fundamentals/shell" />
+              CommandParameter="https://learn.microsoft.com/dotnet/maui/fundamentals/shell" />-->
 </Shell>
