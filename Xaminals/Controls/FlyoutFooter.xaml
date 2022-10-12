@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             x:Class="Xaminals.Controls.FlyoutFooter"
+             HeightRequest="100"
+             Title="FlyoutFooter">
+    <StackLayout>
+        <Label Text="Xaminals"
+               TextColor="DarkGray"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <Label Text="{Binding Source={x:Static sys:DateTime.Now}, StringFormat='{0:dd MMMM, yyyy}'}"
+               TextColor="DarkGray"
+               HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
